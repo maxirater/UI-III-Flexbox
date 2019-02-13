@@ -32,7 +32,7 @@ body {
 	line-height: 1;
 }
 ol, ul {
-	list-style: none;
+	/* list-style: none; */
 }
 blockquote, q {
 	quotes: none;
@@ -66,49 +66,100 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 .container{
-	width: 800px;
+	width: 600px;
 	margin: 0 auto;
 }
 
-.top-img-div{
-	width: 700px;
+nav{
+	display: flex;
+	justify-content: space-between;
+}
+
+h1{
+	width: 100px;
+}
+
+nav img{
+	width: 100px
+}
+
+.top-img-div img{
+	width: 600px;
+}
+
+nav {
+	border-bottom: 50px;
+}
+
+nav p{
+	padding-bottom: 60px;
 }
 
 header{
 	border-bottom: 1px solid black;
-	margin-bottom: 30px o;
+	margin-bottom: 30px;
+}
+
+header nav a{
+	margin-right: 20px;
+	font-size: 10px;
+	text-decoration: none;
+	color: black;
 }
 
 .main-body{
 	margin: 20px 0;
+	border-bottom: 1px solid black;
 }
 
 .upper-section{
 	display: flex;
-	justify-content: space-between;
 	margin-bottom: 50px;
+	justify-content: space-between;
+
 }
 .middle-section{
 	display: flex;
-	justify-content: space-between;
 	margin-bottom: 50px;
+	justify-content: space-between;
 }
 
 .lower-section{
 	display: flex;
-	justify-content: space-between;
 	margin-bottom: 50px;
+	justify-content: space-between;
 }
+
+
 
 .box{
 	border: 1px solid black;
-	width: 200px;
+	background: #eeeeee;
+	width: 250px;
+	padding: 20px;
 }
 
-.contact{
-	margin-bottom: 50px;
+button{
+	margin-top: 15px;
+	height: 30px;
+	width: 120px;
+}
+
+.lower-footer-area{
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer-img-div img{
+	width: 300px;
+	margin-left: 50px;
+}
+
+left-footer-text ul{
+	padding-left: 50px;
 }
 
 .copyright{
+	margin-top: 40px;
 	text-align: center;
 }
