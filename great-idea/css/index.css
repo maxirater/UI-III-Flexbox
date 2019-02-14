@@ -76,11 +76,20 @@ nav{
 }
 
 h1{
-	width: 100px;
+	margin-top: 20px;
+	font-size: 25px;
 }
 
 nav img{
 	width: 100px
+}
+
+.header-text-area{
+	margin-bottom: 30px;
+}
+
+.top-img-div{
+	margin-top: 20px;
 }
 
 .top-img-div img{
@@ -146,6 +155,7 @@ button{
 }
 
 .lower-footer-area{
+	margin-top: 40px;
 	display: flex;
 	justify-content: space-between;
 }
